@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kanishka Jangid's student portfolio: education, skills, projects, and interests.">
+  <title>Kanishka Jangid | Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Kanishka Jangid home">KJ<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">☰</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#education">Education</a>
+        <a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#interests">Interests</a><a href="#contact">Contact</a>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch color theme">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">COMPUTER SCIENCE STUDENT · JAIPUR, INDIA</p>
+          <h1>Hi, I'm<br><span>Kanishka Jangid</span></h1>
+          <p class="hero-text">I’m a Computer Science engineering student interested in technology, programming, and creative design. I enjoy learning new skills and building projects while exploring how technology can solve real problems.</p>
+          <div class="hero-actions"><a class="button primary" href="#projects">Explore my projects <span aria-hidden="true">↘</span></a><a class="button secondary" href="#contact">Contact me <span aria-hidden="true">→</span></a></div>
+          <div class="hero-note"><span class="status-dot"></span> Curious, creative, and always learning</div>
+        </div>
+        <div class="hero-art" aria-label="Decorative lavender illustration" role="img">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="art-card"><span class="art-sparkle">✳</span><span class="art-mark">&lt;/&gt;</span><p>technology<br><strong>meets creativity</strong></p></div>
+          <span class="floating-label label-top">✦ learning every day</span><span class="floating-label label-bottom">made with care ♡</span>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to About">↓</a>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="section-heading"><p class="eyebrow">GET TO KNOW ME</p><h2>About <span>Me</span></h2><p class="section-intro">A student exploring the creative side of technology.</p></div>
+        <div class="about-copy"><p>I am a Computer Science engineering student interested in technology, programming, and creative design. I enjoy learning new skills and building projects while exploring how technology can solve real problems.</p><p>Outside my studies, I enjoy sketching, painting, art, design, and watching series.</p></div>
+      </div>
+    </section>
+
+    <section class="section tinted" id="education">
+      <div class="container">
+        <div class="section-heading centered"><p class="eyebrow">MY LEARNING JOURNEY</p><h2>Education</h2><p class="section-intro">My academic background.</p></div>
+        <div class="education-list">
+          <article class="education-card"><div class="edu-icon" aria-hidden="true">✦</div><div><p class="card-kicker">UNDERGRADUATE</p><h3>B.Tech in Computer Science</h3><p class="muted">JECRC University · Jaipur</p></div><span class="edu-date">CURRENT</span></article>
+          <article class="education-card"><div class="edu-icon" aria-hidden="true">✧</div><div><p class="card-kicker">CLASS 12</p><h3>Saraswati Vidya Mandir</h3><p class="muted">Sikar</p></div><span class="edu-score">86.40%</span></article>
+          <article class="education-card"><div class="edu-icon" aria-hidden="true">✧</div><div><p class="card-kicker">CLASS 10</p><h3>Akhil Bharati School</h3><p class="muted">Sikar</p></div><span class="edu-score">80%</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container skills-grid">
+        <div class="section-heading"><p class="eyebrow">WHAT I’M LEARNING</p><h2>Skills &amp;<br><span>practice.</span></h2><p class="section-intro">A beginner’s toolkit that I’m developing through coursework and practice.</p></div>
+        <div class="skill-list">
+          <article class="skill-card"><span class="skill-icon">C</span><div><h3>C programming</h3><p>Learning the fundamentals</p><span class="level-label">Beginner</span></div></article>
+          <article class="skill-card"><span class="skill-icon">Py</span><div><h3>Python</h3><p>Core syntax and fundamentals</p><span class="level-label">Fundamentals</span></div></article>
+          <article class="skill-card"><span class="skill-icon">&lt;/&gt;</span><div><h3>HTML, CSS &amp; JavaScript</h3><p>Building and styling simple web pages</p><span class="level-label">Beginner-level web development</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tinted" id="projects">
+      <div class="container">
+        <div class="projects-heading"><div class="section-heading"><p class="eyebrow">LEARNING BY BUILDING</p><h2>Projects</h2><p class="section-intro">Assessment project entries. Repository links can be added when available.</p></div><label class="search-box"><span aria-hidden="true">⌕</span><input id="project-search" type="search" placeholder="Search projects..." aria-label="Search projects"></label></div>
+        <div class="project-grid" id="project-grid">
+          <article class="project-card" data-search="python programs collection fundamentals programming"><div class="project-visual visual-one"><span>01</span><div class="project-symbol">Py<span>_</span></div></div><div class="project-content"><p class="card-kicker">PYTHON · ASSESSMENT</p><h3>Python Programs Collection</h3><p>A collection entry for Python practice programs. Add details about the programs as they are completed.</p><div class="project-footer"><span class="project-status">Repository link not added</span><span class="placeholder-link">Repository: placeholder</span></div></div></article>
+          <article class="project-card" data-search="messy python code improvement cleanup refactoring"><div class="project-visual visual-two"><span>02</span><div class="code-symbol">{ <b>clean</b> }</div></div><div class="project-content"><p class="card-kicker">PYTHON · CODE QUALITY</p><h3>Messy Python Code Improvement</h3><p>An entry for practicing clearer structure and readability in Python code.</p><div class="project-footer"><span class="project-status">Repository link not added</span><span class="placeholder-link">Repository: placeholder</span></div></div></article>
+          <article class="project-card" data-search="bug fixing using cursor ai debugging"><div class="project-visual visual-three"><span>03</span><div class="bug-symbol">✳ <small>debug</small></div></div><div class="project-content"><p class="card-kicker">DEBUGGING · AI TOOL</p><h3>Bug Fixing Using Cursor AI</h3><p>An assessment entry about exploring a debugging workflow with Cursor AI.</p><div class="project-footer"><span class="project-status">Repository link not added</span><span class="placeholder-link">Repository: placeholder</span></div></div></article>
+          <article class="project-card" data-search="interactive quiz application questions score javascript"><div class="project-visual visual-four"><span>04</span><div class="quiz-symbol">Q<span>?</span></div></div><div class="project-content"><p class="card-kicker">APPLICATION · QUIZ</p><h3>Interactive Quiz Application</h3><p>An entry for an interactive quiz application. Add features and completion details when verified.</p><div class="project-footer"><span class="project-status">Repository link not added</span><span class="placeholder-link">Repository: placeholder</span></div></div></article>
+          <article class="project-card" data-search="book reading list application books tracker"><div class="project-visual visual-five"><span>05</span><div class="book-symbol">▤<small>reading list</small></div></div><div class="project-content"><p class="card-kicker">APPLICATION · READING</p><h3>Book Reading List Application</h3><p>An entry for a reading list application. Add its behavior and status as the work progresses.</p><div class="project-footer"><span class="project-status">Repository link not added</span><span class="placeholder-link">Repository: placeholder</span></div></div></article>
+        </div>
+        <p class="empty-state" id="empty-state" hidden>No projects match that search. Try another word.</p>
+        <p class="portfolio-note">Project descriptions are neutral placeholders and do not claim completion.</p>
+      </div>
+    </section>
+
+    <section class="section" id="interests">
+      <div class="container interests-wrap"><div class="section-heading"><p class="eyebrow">OUTSIDE THE CLASSROOM</p><h2>Interests</h2><p class="section-intro">Creative activities and downtime I enjoy.</p></div><div class="interest-list"><span>✎ Sketching</span><span>✿ Painting</span><span>▧ Art</span><span>✧ Design</span><span>▹ Watching series</span></div></div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-box"><div><p class="eyebrow">CONTACT</p><h2>Let’s connect.</h2><p class="section-intro">Contact links need to be added. No email, phone number, or social profile is listed yet.</p></div><span class="contact-note">Contact details coming soon</span></div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home">KJ<span>.</span></a><p>Student portfolio · Made with curiosity and care.</p><a href="#home" class="back-top">Back to top ↑</a></div></footer>
+</body>
+</html>
